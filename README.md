@@ -91,13 +91,3 @@ The extraction tests always run. The classification/summarization/QA/API
 tests are skipped automatically if you haven't installed the ML
 dependencies yet, so the test suite still runs cleanly either way.
 
-## Notes
-
-- This is a portfolio/learning project. It's genuinely useful for basic
-  document understanding, but it isn't meant to replace a production
-  document-processing system for things like legal or financial
-  compliance.
-- Everything runs locally by default. If you wanted to deploy this
-  somewhere (like AWS), the FastAPI service is already set up to run in
-  Docker, so that part's a natural next step — just optional, and not
-  required to use or demo the project.
